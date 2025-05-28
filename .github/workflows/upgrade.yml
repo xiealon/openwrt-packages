@@ -10,7 +10,7 @@ name: Repo packages
 on:
   push:
   schedule:
-   - cron: 0 */6 * * *
+   - cron: "0 0 3/12 * *"
   workflow_dispatch:
 
 jobs:
