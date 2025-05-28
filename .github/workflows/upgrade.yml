@@ -7,11 +7,11 @@
 
 name: Repo packages
 
-on:
-  push:
-  schedule:
-    - cron: 0 */6 * * *
-  workflow_dispatch:
+# on:
+#   push:
+#   schedule:
+#    - cron: 0 */6 * * *
+#   workflow_dispatch:
 
 jobs:
   update:
